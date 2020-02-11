@@ -1,6 +1,7 @@
 // Write a javascript function named reverse which takes a string argument and returns the reversed string.
 
-reverse("testeng")
+console.log(reverse("testeng"))
+console.log(str_reverse("its"))
 
 function reverse(str)
 {
@@ -11,6 +12,7 @@ function reverse(str)
   { 
    rev2.push((rev.pop()));
   }
+  
   return rev2.join("");
 }
 
