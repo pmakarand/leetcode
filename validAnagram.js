@@ -19,7 +19,7 @@ if(str1.length != str2.length) return false;
      return false;
    } else s1[ch1] = --s1[ch1];
  }
- return true;
-};
+ return true
+}
 
-validAnagram("1122","cdaa")
+validAnagram("aaba","abaa")
