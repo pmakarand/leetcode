@@ -1,6 +1,6 @@
 // To find if two strings are anagarms
 
-var validAnagram = function (str1, str2)
+var validAnagram = function(str1, str2)
 {
 var s1={};
 //length of str does not match. Not anangram.
@@ -20,6 +20,5 @@ if(str1.length != str2.length) return false;
    } else s1[ch1] = --s1[ch1];
  }
  return true
-}
-
-validAnagram("aaba","abaa")
+};
+console.log(validAnagram("werwerwer","abaa"))
