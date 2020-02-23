@@ -31,7 +31,6 @@ function areThereDuplicates1(arr) {
      console.log(arr)
     for (let j=1 ;j<arr.length; j++)
     {   
-        console.log(arr[i], arr[j])
         if(arr[i] === arr[j])
         {
             return true;
