@@ -19,7 +19,10 @@ var isPalindrome = function(x) {
         while (tmp !== 0)
         {
           num =((num*10)+(tmp%10))
-          tmp =~~(tmp/10);
+          console.log(tmp%10)
+          tmp = Math.floor(tmp/10);
+          // use bit wise operator ~~ instead math.floor
+          console.log(tmp);
         }
         if (num === x)
         {
@@ -30,7 +33,7 @@ var isPalindrome = function(x) {
           
      
 };
-isPalindrome(34563)
+console.log(isPalindrome(34543))
 //solution 2
 // var isPalindrome = function(x) {
 //   return String(x) === String(x).split('').reverse().join('')
