@@ -10,7 +10,7 @@ var countUniqueVal = function(arr)
     if (!arr) {return 0}
     // if only one element in array
     if (arr.length == 1) {return 1}
-
+    
     for (let j=1; j<arr.length; j++)
     {
         if(arr[i] != arr[j])
