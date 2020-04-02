@@ -17,9 +17,7 @@ var maxSubArray = function(nums)
         console.log("tempsum is "+tempsum)
         if (tempsum > sum)
         {
-            sum = Math.max (tempsum,nums[i]);
-           
-           
+            sum = Math.max (tempsum,nums[i]);                   
         console.log("sum is "+sum)
         }   
         if (tempsum < 0)
