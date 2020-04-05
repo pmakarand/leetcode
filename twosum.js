@@ -52,4 +52,4 @@ var twoSum = function(nums, target) {
         }
     }
 }
-twoSum([3,4,2], 6)
+twoSum([2,9,11,7], 9)
